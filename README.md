@@ -2,9 +2,17 @@
 Seoul Ultrafine-dust Visualization using Open data.
 
 ## Overview
-This is simple visualization of Ultrafine-dust in Seoul. 
+This is simple visualization of Ultrafine-dust in Seoul. Data used for this project is measured through Smart Seoul City Data Sensor (S-DoT) installed in 850 locations in Seoul.
+Ultrafine dust, fine dust, temperature, humidity, illumination, noise, vibration, ultraviolet light, wind speed, wind direction, etc is measured, but I focused on Ultrafine dust only. Dust data is measured using a simple measuring instrument (grade 2) so it does not indicate the accurate air pollution level. However, it's enough to identify changes over time and visualize.
 
 ## Process
+I followed this steps.
+1. Get raw data.CSV.
+2. Remove unnecessary columns and rename id.
+3. Rearrange data and write CSV file using perl script.
+5. Check CSV file and append first row.
+6. Processing reads final CSV and visualize it.
+7. Done.
 
 ## Example
 Visualization of April and May. 

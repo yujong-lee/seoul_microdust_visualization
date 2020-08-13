@@ -25,9 +25,11 @@ for(int i = 0; i < table.getRowCount(); ++i) {;
   
 for(int day = 1; day < dayMax + 1; ++day) {
   for(int hour = 0; hour < hourMax + 1; ++hour) {
-    fill(255 - micro[day][hour]*4);
+    float grayScale = 255 - micro[day][hour]*4;
+    if(grayScale < 0) {
+      grayScale = 0;
+    }
+    fill(grayScale);
     rect(size*hour, size*(day-1), size, size);
   }
 }
-
-save("month.png");

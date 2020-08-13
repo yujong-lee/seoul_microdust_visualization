@@ -2,7 +2,7 @@
 Seoul micro-dust visualization using Open data.
 
 
-<img src="https://github.com/yujong-lee/seoul_microdust_visualization/blob/master/4_result.png" width="30%"></img> April 1 ~ 30
+<img src="https://github.com/yujong-lee/seoul_microdust_visualization/blob/master/4_result.png" width="30%", "April 1 ~ 30"></img> 
 <img src="https://github.com/yujong-lee/seoul_microdust_visualization/blob/master/5_result.png" width="30%"></img> May 1 ~ 31
 
 

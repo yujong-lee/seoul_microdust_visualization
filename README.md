@@ -34,7 +34,7 @@ Image below is visualization of data from April and May in 2020.
 * Each dust value used to set grayscale is median value of 850 data.
 * Last line of April image is empty because April has only 30 days. 
 * Maximum (median)dust value is 98.34230769 in April, and 119.9310345 in May. 
-* Value 63.75 and above is all painted pure black.
+* **Value 63.75 and above is all painted pure black.**
 
 <img src="https://github.com/yujong-lee/seoul_ultrafinedust_visualization/blob/master/example.png" width="90%"></img> 
 

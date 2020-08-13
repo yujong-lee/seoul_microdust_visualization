@@ -9,8 +9,8 @@ Ultrafine dust, fine dust, temperature, humidity, illumination, noise, vibration
 I followed these steps.
 1. Get raw data.CSV.
 2. Remove unnecessary columns and rename id.
-3. Rearrange data and write CSV file using perl script.
-5. Check CSV file and append first row.
+3. Rearrange data, get median value from 850 data of each hour, and write CSV file using perl script.
+5. Check CSV file and append first row. (because 00:00 data of first day is empty)
 6. Processing reads final CSV and visualize it.
 7. Done.
 

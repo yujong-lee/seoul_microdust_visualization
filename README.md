@@ -1,5 +1,5 @@
-# seoul_Ultrafine dust_visualization
-Seoul Ultrafine-dust visualization using Open data.
+# Seoul_Ultrafine dust_Visualization
+Seoul Ultrafine-dust Visualization using Open data.
 
 ## Overview
 This is simple visualization of Ultrafine-dust in Seoul. 
@@ -8,8 +8,8 @@ This is simple visualization of Ultrafine-dust in Seoul.
 
 ## Example
 Visualization of April and May. 
-<img src="https://github.com/yujong-lee/seoul_Ultrafine-dust_visualization/blob/master/4_result.png" width="30%"></img> 
-April  /  May <img src="https://github.com/yujong-lee/seoul_Ultrafine-dust_visualization/blob/master/5_result.png" width="30%"></img> 
+<img src="https://github.com/yujong-lee/seoul_ultrafinedust_visualization/blob/master/4_result.png" width="30%"></img> 
+April  /  May <img src="https://github.com/yujong-lee/seoul_ultrafinedust_visualization/blob/master/5_result.png" width="30%"></img> 
 
 ##Acknowledgments
 This data is based on the Seoul IoT city data data, and the results are not related to the city.

@@ -30,7 +30,8 @@ I followed these steps.
 ## Example
 Image below is visualization of data from April and May in 2020. 
 
-* One small square represents specific hour of a day. Darker square mean higher dust value.
+* One small square represents specific hour of a day. Darker square means higher dust value.
+* Each dust value used to set grayscale is median value of 850 data.
 * Last line of April image is empty because April has only 30 days. 
 * Maximum (median)dust value is 98.34230769 in April, and 119.9310345 in May. 
 * Value 63.75 and above is all painted pure black.

@@ -21,7 +21,7 @@ Dust data is measured using a simple measuring instrument (grade 2). So it does 
 ## Process
 I followed these steps.
 1. Get raw CSV data file.
-2. Remove unnecessary columns and rename id.
+2. Remove unnecessary columns and rename ids.
 3. Rearrange data, get median value from 850 data of each hour, and write CSV file using perl script.
 5. Check CSV file and append first row. (because 00:00 data of first day is empty)
 6. Processing reads final CSV and visualize it.

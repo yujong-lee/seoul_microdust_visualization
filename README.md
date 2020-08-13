@@ -6,7 +6,7 @@ This is simple visualization of Ultrafine-dust in Seoul. Data used for this proj
 Ultrafine dust, fine dust, temperature, humidity, illumination, noise, vibration, ultraviolet light, wind speed, wind direction, etc is measured, but I focused on Ultrafine dust only. Dust data is measured using a simple measuring instrument (grade 2). So it does not indicate the accurate air pollution level. However, it's enough to identify changes over time and visualize.
 
 ## Process
-I followed this steps.
+I followed these steps.
 1. Get raw data.CSV.
 2. Remove unnecessary columns and rename id.
 3. Rearrange data and write CSV file using perl script.
@@ -18,9 +18,6 @@ I followed this steps.
 Visualization of April and May. 
 
 <img src="https://github.com/yujong-lee/seoul_ultrafinedust_visualization/blob/master/example.png" width="90%"></img> 
-
-
-row -> date, column -> time. 
 
 ## Acknowledgments
 This data is based on the Seoul IoT city data data, and the results are not related to the city.

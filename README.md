@@ -17,8 +17,8 @@ I followed this steps.
 ## Example
 Visualization of April and May. 
 
-<img src="https://github.com/yujong-lee/seoul_ultrafinedust_visualization/blob/master/4_result.png" width="30%"></img> 
-April  /  May <img src="https://github.com/yujong-lee/seoul_ultrafinedust_visualization/blob/master/5_result.png" width="30%"></img> 
+<img src="https://github.com/yujong-lee/seoul_ultrafinedust_visualization/blob/master/example.png" width="90%"></img> 
+
 
 row -> date, column -> time. 
 

@@ -7,7 +7,7 @@ Ultrafine dust, fine dust, temperature, humidity, illumination, noise, vibration
 
 ## Process
 I followed these steps.
-1. Get raw data.CSV.
+1. Get raw CSV data file.
 2. Remove unnecessary columns and rename id.
 3. Rearrange data, get median value from 850 data of each hour, and write CSV file using perl script.
 5. Check CSV file and append first row. (because 00:00 data of first day is empty)
@@ -17,10 +17,12 @@ I followed these steps.
 ## Example
 Visualization of data from April and May. One small square represents specific hour of a day. Darker square mean higher dust value.
 Last line of April image is empty because April has only 30 days.
-
 <img src="https://github.com/yujong-lee/seoul_ultrafinedust_visualization/blob/master/example.png" width="90%"></img> 
 
+Maximum dust (median)value is 98.34230769 in April, and 119.9310345 in May.
+
 ## Acknowledgments
-This data is based on the Seoul IoT city data data, and the results are not related to the city.
+*Perl module [Parse::CSV](https://metacpan.org/pod/Parse::CSV) was very helpful.
+*This data is based on the Seoul IoT city data data, and the results are not related to the city.
 
 본 자료는 [서울시 IoT도시데이터 자료](http://data.seoul.go.kr/dataList/OA-15969/S/1/datasetView.do#)를 활용한 것이며, 연구 결과는 서울시와 관련 없음을 밝힙니다.

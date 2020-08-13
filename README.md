@@ -16,7 +16,11 @@ I followed these steps.
 
 ## Example
 Visualization of data from April and May. One small square represents specific hour of a day. Darker square mean higher dust value.
-Last line of April image is empty because April has only 30 days. Maximum dust (median)value is 98.34230769 in April, and 119.9310345 in May. 
+Last line of April image is empty because April has only 30 days. 
+
+
+
+Maximum dust (median)value is 98.34230769 in April, and 119.9310345 in May. 
 Value 63.75 and above is all painted pure black.
 
 <img src="https://github.com/yujong-lee/seoul_ultrafinedust_visualization/blob/master/example.png" width="90%"></img> 

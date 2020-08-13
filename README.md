@@ -28,7 +28,7 @@ I followed these steps.
 7. Done.
 
 ## Example
-Image below is visualization of data from April and May. 
+Image below is visualization of data from April and May in 2020. 
 
 * One small square represents specific hour of a day. Darker square mean higher dust value.
 * Last line of April image is empty because April has only 30 days. 

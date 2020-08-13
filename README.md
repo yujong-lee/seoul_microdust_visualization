@@ -14,7 +14,7 @@ This is simple visualization of Ultrafine-dust in Seoul. Data used for this proj
 * Wind direction
 * Etc 
 
-The above items are measured, but I focused on Ultrafine dust only. 
+The above items were measured, but I focused on Ultrafine dust only. 
 
 Dust data is measured using a simple measuring instrument (grade 2). So it does not indicate the accurate air pollution level. However, it's enough to identify changes over time and visualize.
 

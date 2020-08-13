@@ -26,8 +26,7 @@ Value 63.75 and above is all painted pure black.
 <img src="https://github.com/yujong-lee/seoul_ultrafinedust_visualization/blob/master/example.png" width="90%"></img> 
 
 ## Acknowledgments
-*Perl module [Parse::CSV](https://metacpan.org/pod/Parse::CSV) was a great help in carrying out this project.
-
-*This data is based on the Seoul IoT city data data, and the results are not related to the city.
+* Perl module [Parse::CSV](https://metacpan.org/pod/Parse::CSV) was a great help in carrying out this project.
+* This data is based on the Seoul IoT city data data, and the results are not related to the city.
 
 본 자료는 [서울시 IoT도시데이터 자료](http://data.seoul.go.kr/dataList/OA-15969/S/1/datasetView.do#)를 활용한 것이며, 연구 결과는 서울시와 관련 없음을 밝힙니다.

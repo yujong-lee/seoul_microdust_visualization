@@ -15,7 +15,7 @@ I followed these steps.
 7. Done.
 
 ## Example
-Visualization of April and May. 
+Visualization of data from April and May. One small square represent specific hour of a day. Darker square mean higher dust value.
 
 <img src="https://github.com/yujong-lee/seoul_ultrafinedust_visualization/blob/master/example.png" width="90%"></img> 
 

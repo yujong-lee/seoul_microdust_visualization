@@ -26,20 +26,13 @@ sub getMedian {
 
 sub date_parser {
 	my $date_string = shift;
+	my %hash;
 	
-	my @raw = split(/\./, $date_string); 
-	my $month = $raw[1];
+	my @key = ('month', 'day', 'hour');
+	my @value = ($date_string =~ /2020.(\d+).(\d+) (\d+):00/);
 	
-	my @day_and_time = split(/ /, $raw[2]);
-	my $day = $day_and_time[0];
-	my @time = split(/:/, $day_and_time[1]);
-	
-	my $hour = $time[0];
-	return {
-			 month => $month, 
-			 day => $day, 
-			 hour => $hour
-			};
+	@hash{@key} = @value;
+	return \%hash;
 }
 
 
